@@ -7,6 +7,11 @@ export const Nav = styled.nav`
   position: top;
   justify-content: space-between;
 `
+export const CardDiv = styled.div`
+  display: flex;
+  flex-direction: ${props => (props.row ? 'row' : 'column')};
+  margin-right: 20px;
+`
 
 export const Heading = styled.h1`
   margin-left: 30px;
